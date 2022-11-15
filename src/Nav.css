@@ -1,0 +1,49 @@
+.nav {
+    background-color: rgba(3,37,65);
+    height: 90px;
+    width: 100%;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+.nav__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.nav__title h1 {
+    margin-right: 50px;
+}
+
+.nav__title img {
+    height: 25px;
+    margin-left: 20px;
+    margin-bottom: 2.2rem;
+}
+
+.nav__title  h3 {
+    margin-left: 35px;
+}
+.nav__input {
+    margin-top: 12px;
+    margin-right: 20px;
+}
+.nav__input > input {
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+}
+
+.nav__icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
